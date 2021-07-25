@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* header {
+    background: url("../transparent_login/bg.jpg") center center/cover no-repeat;
+    margin-top: 0%;
+} */
+
+#logo {
+    height: 100px;
+    margin-top: 50px;
+}
+#logobar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    height: 230px;
+    width: 100%;
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    height: 230px;
+    width: 100%;
+    background: orange;
+    z-index: -1;
+}
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 0rem 2rem;
+    padding-top: 1rem;
+}
+
+#navbar ul li {
+    padding: 12px 23px;
+    font-size:1.2rem;
+    font-weight: 1000;
+}
+
+#register {
+    background-color: tomato;
+    border-radius: 20px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    height: 50vh;
+    width: 33vw;
+    /* margin: 2px; */
+    padding: 2px;
+}

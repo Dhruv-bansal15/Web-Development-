@@ -1,0 +1,230 @@
+*{
+    top: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Pangolin', cursive;  
+}
+html {
+    scroll-behavior: smooth;
+}
+/* navbar styling */
+#navbar{
+    display: flex;
+    /* align-items: center; */
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+#navbar::before{
+    content: '';
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.4;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+}
+#logo {
+    margin: 5px 5px;
+}
+#logo img{
+    height: 70px;
+    margin: 10px 20px;
+    /* width: auto; */
+}
+
+#navbar ul{
+    display: flex;
+    margin: 20px;
+}
+
+#navbar ul li{
+    /* padding: 0 20px; */
+    /* margin: 10px; */
+    list-style: none;
+    display: block;
+    text-align: center;
+    
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 3px 40px;
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: white;
+}
+
+#navbar li a:hover{
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 20px;
+    color: black;
+
+}
+
+#navbar input{
+    margin: 25px 250px;
+    /* display: block; */
+    /* margin-right: 100px; */
+    padding: 8px 30px;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 150px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+#home::before{
+    content: '';
+    background: url('../images/ExamPrep/bg2.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 550px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    /* opacity: 0.8; */
+    z-index: -1;
+}
+
+#home h1{
+    color: rgb(212, 212, 212);
+    text-align: center;
+}
+
+#home p{
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+}
+
+#services{
+    display: flex;
+    margin: 10px 10px;
+}
+
+#services-container{
+    height: 450px;
+
+}
+#services-container::before{
+    content: '';
+    background: url('../images/ExamPrep/bg3.jpg');
+    position: absolute;
+    height: 450px;
+    width: 100%;
+    /* opacity: 0.5; */
+   
+    /* opacity: 0.8; */
+    z-index: -1;
+}
+#services .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid brown;
+    margin: 3px 5px;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: rgb(236, 228, 228);
+}
+
+.box button{
+    margin-bottom: 0;
+    background-color: blueviolet;
+}
+
+.box p{
+    text-align: center;
+    font-size: 1.4rem;
+}
+.box h2{
+    padding: 20px;
+
+}
+
+#live-study{
+    display: flex;
+    flex-direction: column;
+
+}
+#live-study h1{
+    /* background-color: rosybrown; */
+}
+.live-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    margin: 4px;
+    background-color: rgb(196, 154, 154);
+
+}
+.live-items button{
+    background-color: rgb(126, 18, 68);
+}
+
+#sponsers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#sponsers::before{
+    content: '';
+    background: url('../images/ExamPrep/spons2.jpg.png');
+    position: absolute;
+    height: 450px;
+    width: 100%;
+    /* opacity: 0.5; */
+   
+    /* opacity: 0.8; */
+    z-index: -1;
+}
+
+.spons-items{
+    padding: 2px;
+    margin: 20px;
+}
+#sponsers h1{
+    background-color: rgb(236, 181, 234)
+}
+
+.primary-heading{
+    font-size: 3.2rem;
+    padding: 20px;
+    text-align: center;
+}
+
+.secondary-heading{
+    font-size: 2.3rem;
+    padding: 10px;
+    text-align: center;
+}
+.btn{
+    padding: 5px 25px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 20px 20px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+

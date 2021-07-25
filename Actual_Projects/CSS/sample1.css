@@ -1,0 +1,199 @@
+* {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#navbar {
+    background-color: orange;
+    /* border: 2px solid black; */
+    display: flex;
+    padding: 13px;
+    height: 35px;
+    top: 0px;
+    position: sticky;
+}
+
+/* #navbar::before {
+    content: '';
+    background-color: orange;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+} */
+
+.btn {
+    border: none;
+    cursor: pointer;
+    background-color: orange;
+    color: white;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.btn:hover {
+    color: black;
+}
+
+#navbar #learnMore {
+    margin-right: 20px;
+    margin-left: 70%;
+    
+}
+#navbar #learnMore button{
+    border: none;
+    background-color: orange;
+    color: white;
+    font-weight: 1000;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#navbar #learnMore button:hover {
+    color: black;
+    text-decoration: underline;
+}
+#buttons {
+    margin-right: 20px;
+    margin-left: auto;
+    padding: 4px;
+    font-size: 22px;
+    color: white;
+}
+
+#navbar img {
+    height: 30px;
+    margin: 0px;
+    filter: brightness(0) invert(1);
+    cursor: pointer;
+    margin-left: 60px;
+}
+
+#offers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: rgba(230, 223, 223, 0.541);
+    margin: 1rem;
+    margin-bottom: 0px;
+    /* border: 2px solid black; */
+}
+
+#offers div {
+    margin: 4px;
+}
+
+.orange {
+    color: orange;
+    font-weight: 1000;
+}
+
+.grey {
+    color:grey;
+    font-weight: 800;
+}
+
+.blue {
+    color: rgb(7, 7, 114);
+    font-weight: 900;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+.container::before {
+    content: "";
+    background: url("bg.jpg") no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+    /* top: 0; */
+    /* left: 0; */
+}
+
+.container h1 {
+    color: white;
+    font-size: 6rem;
+    margin-top: 7rem;
+}
+
+.container h2 {
+    color: white;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+}
+
+.container #searchBox {
+    margin-top: 2rem;
+}
+
+.container #searchBox #text {
+    width: 52rem;
+    /* height: 1.5rem; */
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.container #searchBox #submit {
+    background-color: orange;
+    color: white;
+    /* height: 2.5rem; */
+    padding: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.container #searchBox #submit:hover {
+    color: black;
+    text-decoration: underline;
+}
+.container #guarantee p {
+    color: white;
+    font-weight: 900;
+}
+
+.container #guarantee {
+    margin-top: 20px;
+}
+
+.container #options {
+    margin-top: 5rem;
+}
+
+.container #options .services {
+    padding: 1rem;
+    opacity: 0.5;
+    border: none;
+    font-size: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: rgba(0, 0, 0, 0.356);
+    color: rgb(255, 255, 255);
+    font-weight: 1000;
+    cursor: pointer;
+}
+
+.container #options #help {
+    background-color: orange;
+    opacity: 0.8;
+}
+
+.container #options .services:hover {
+    background-color: orange;
+    color: black;
+}
+
+.container #wait {
+    color: white;
+    margin-top: 7rem;
+    font-size: 1.5rem;
+}

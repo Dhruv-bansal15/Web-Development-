@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Muscle Feast</title>
+    </head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+<style>
+    body {
+        font-family: 'Merriweather', serif;
+        background: url("Images/Gym Project/Background.jpg") no-repeat center center/cover;
+    }
+    .left {
+        /* display: inline-block; */
+        position: absolute;
+        /* border: 2px solid red; */
+        left: 40px;
+        top: 10px;
+    }
+
+    .left img {
+        width: 70px;
+        filter: invert(100%);
+        display: block;
+        margin: auto;
+
+    }
+
+    .left h3 {
+        line-height: 0px;
+        text-align: center;
+
+    }
+
+
+    .middle {
+        display: block;
+        margin: 10px auto;
+        width: 50%;
+        /* border: 2px solid red; */
+
+
+
+    }
+
+
+    .navbar li {
+        display: inline-block;
+    }
+
+    .navbar li a {
+        text-decoration: None;
+        color: rgb(248, 245, 245);
+        font-size: 20px;
+        padding: 20px 5px;
+    }
+
+    .navbar li a:hover {
+        color: silver;
+    }
+
+    
+
+    .navbar li a.active {
+        text-decoration: underline;
+        color: slategray;
+    }
+
+    .right {
+        position: fixed;
+        right: 34px;
+        top: 4px;
+        /* display: inline-block; */
+        /* border: 2px solid red; */
+
+    }
+    .right input {
+        padding: 5px 10px;
+        margin: 15px 0px;
+        font-size: 20px;
+    }
+
+    .btn {
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(51, 50, 49);
+        text-decoration: underline;
+    }
+
+    .container {
+        /* border: 2px solid white; */
+        margin: 40px 10px;
+        padding: 40px;
+        width: 33%;
+        /* border-radius: 28px; */
+    }
+
+    .form input {
+        text-align: center;
+        color: floralwhite;
+        background-color: rgb(8, 8, 8);
+        display: block;
+        width: 250px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px 8px;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+
+    .container button {
+        display: block;
+        width: 250px;
+        margin: 50px 5;
+    }
+
+    .container label {
+        font-size: 25px;
+    }
+
+    .container h2 {
+        text-decoration: underline;
+        color: lawngreen;
+    }
+
+    .middle a {
+        background-color: black;
+        border: 2px solid white;
+        padding: 10px;
+</style>
+
+<body>
+
+    <header class="header">
+        <div class="left">
+            <img src="Images/Gym Project/logo.jpg">
+            <h3>Muscle Beast</h3>
+
+        </div>
+        <div class="middle">
+            <ul class="navbar">
+                <li><a href="#" class="active"><b>Home</b></a></li>
+                <li><a href="#"><b>About Us</b></a></li>
+                <li><a href="#"><b>Courses</b></a></li>
+                <li><a href="#"><b>Our Team</b></a></li>
+                <li><a href="#"><b>Contact Us</b></a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <input type="text" placeholder="Search this Website">
+        </div>
+    </header>
+    <div class="container">
+        <h2>Join if you are a fitness freak!</h2>
+        <form action="nothing.php">
+            <div class="form">
+                <label for="">Name:</label>
+                <input type="text" placeholder="Enter your name">
+            </div>
+            <div class="form">
+                <label for="">Level:</label>
+                <input type="text" placeholder="Beginner">
+            </div>
+            <div class="form">
+                <label for="">Age:</label>
+                <input type="number" placeholder="Enter your age">
+            </div>
+            <div class="form">
+                <label for="">Hometown:</label>
+                <input type="text" placeholder="Where you live">
+            </div>
+            <div class="form">
+                <label for="">Contact:</label>
+                <input type="number" placeholder="Enter your number">
+            </div>
+            <div class="form">
+                <button class="btn">Submit</button>
+            </div>
+
+        </form>
+    </div>
+
+
+
+
+</body>
+</html>
